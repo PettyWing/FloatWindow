@@ -104,7 +104,7 @@ public class FloatWindow {
      *
      * @param editable
      */
-    public void setFocusable(boolean editable) {
+    public void setEditable(boolean editable) {
         if (editable) {
             layoutParams.flags = WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL;
         } else {
