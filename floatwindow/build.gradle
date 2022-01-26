@@ -1,6 +1,14 @@
 plugins {
     id 'com.android.library'
 }
+ext {
+    PUBLISH_GROUP_ID = "io.github.pettywing"        //项目包名
+    PUBLISH_ARTIFACT_ID = 'floatwindow'            //项目名
+    PUBLISH_VERSION = '0.0.1'                    //版本号
+    PUBLISH_GIT_URL = 'https://github.com/PettyWing/FloatWindow.git' //git地址
+}
+
+apply from: '../publish.gradle'
 
 android {
     compileSdkVersion 30
