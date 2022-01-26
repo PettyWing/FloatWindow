@@ -1,6 +1,6 @@
 <a name="IeUgc"></a>
 # 简介
-一个可拖动的悬浮窗<br />[floatWindow仓库](https://github.com/PettyWing/androidUI)
+一个可拖动的悬浮窗<br />
 <a name="DJf47"></a>
 # 集成
 <a name="S4pEt"></a>
@@ -10,7 +10,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        mavenLocal()
+        mavenCentral()()
     }
 }
 ```
